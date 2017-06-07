@@ -1,24 +1,30 @@
-header {
-  background-image: url(../images/background.jpg);
-  background-repeat: repeat-x;
-  margin: 0;
-  height: 200px;
-
+.container {
+  border: 1px solid pink;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-body {
-  margin: 0;
-  text-align: center;
-  background-color: grey;
+/*.container > * {
+  display: inline-block;
 }
-
-article {
+*/
+main {
+  border: 1px solid lime;
+  vertical-align: top;
+  width: 70%;
   float: left;
-  padding: 50px;
-  text-align: justify;
 
 }
 
-section {
-  background-color: white;
+aside {
+  border: 1px solid blue;
+  vertical-align: top;
+  width: 28%;
+  float: left;
+}
+
+img {
+  float: left;
+  width: 100%;
 }
