@@ -1,0 +1,15 @@
+Q. 1: document.querySelectorAll('div span')[2]
+Q. 2: document.querySelectorAll(‘div span’)[2].innerHTML = ‘Friend’
+}
+Q. 3: var selectBtn = document.querySelectorAll('span button')[0]
+var sectionTag = document.querySelectorAll('section')[0]
+var changeFont = function(){
+ sectionTag.style.fontSize = '2em'
+}
+selectBtn.addEventListener('click', changeFont)
+
+Q. 4: var favouriteColor = document.querySelector('.favCol').value
+Q. 5: var parent =
+document.querySelector('.this-article')
+
+parent.firstElementChild.replaceChild

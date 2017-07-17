@@ -1,4 +1,4 @@
-search = $('form').submit(function(event){
+search =  $('form').submit(function(event){
   event.preventDefault();
   var giphs = $('input').val();
 
@@ -18,12 +18,13 @@ search = $('form').submit(function(event){
 })
 
 function displaySearches(response){
-  var giphs = response.Search;
-  for (var i = 0; i < giphs.length; i++) {
+  var giphList = response.data;
+  debugger
+  for (var i = 0; i < giphList.length; i++) {
     var div = $('<div>');
-    var image = giph[i].Title;
-    giph.append(title);
+    giphList[i].images;
+    giphList.append(images);
     $('#giphs').append(div);
   }
-  console.log(response.Search[0].Title)
+  console.log(response.data[0].Title)
 }
