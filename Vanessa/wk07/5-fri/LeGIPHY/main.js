@@ -18,13 +18,8 @@ search =  $('form').submit(function(event){
 })
 
 function displaySearches(response){
-  var giphList = response.data;
-  debugger
-  for (var i = 0; i < giphList.length; i++) {
-    var div = $('<div>');
-    giphList[i].images;
-    giphList.append(images);
-    $('#giphs').append(div);
+  image = response['data'][0].images.fixed_height
+  for (var i = 0; i < image.length; i++) {
+    image[i].each
   }
-  console.log(response.data[0].Title)
 }
