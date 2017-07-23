@@ -1,6 +1,15 @@
+
 <h1><%= @article.title %></h1>
 
 <canvas id="chart" width="400" height="400"></canvas>
+
+<form action="">
+<button id="load-comments">load comments</button>
+</form>
+
+<div class="comments">
+
+</div>
 
 <script
   src="https://code.jquery.com/jquery-3.2.1.js"
@@ -8,6 +17,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js" charset="utf-8">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js" charset="utf-8">
+</script>
+
+<script>
+
+  $('#load-comments').on('click', loadComments)
+
 </script>
 
 <script>
