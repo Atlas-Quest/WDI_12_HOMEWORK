@@ -1,0 +1,24 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  font-family: 'Maitree', serif;
+  font-size: .75em;
+  text-align: center;
+  margin-top: 350px;
+  background-image: url("home_background.jpg");
+}
+
+i {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+  background-size: 20px;
+}
+
+div {
+  bottom: 22px;
+  position: fixed;
+  width: 100vw;
+  font-size: 18px;
+}
