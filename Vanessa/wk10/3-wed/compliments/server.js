@@ -15,7 +15,7 @@ var compliments = [
   "It's almost beer o'clock",
   "The Force is strong with you",
   "You so Fancy",
-  "Hawkeyes"
+  "Hawkeyes",
 ]
 
 var backgroundColors = ["#FFBF00", "#0080FF","#01DF3A","#FF0080"]

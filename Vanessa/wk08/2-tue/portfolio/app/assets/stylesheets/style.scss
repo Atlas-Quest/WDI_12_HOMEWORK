@@ -10,7 +10,7 @@
   height: 100vh;
   position: relative;
   text-align: center;
-  width: 100%;
+  // width: 100%;
   min-height: 350px;
   background-size: cover;
 }
@@ -39,22 +39,80 @@ body {
   font-weight: bold;
 }
 
-.fa {
-  padding-bottom: 20px;
-  background-size: 20px;
-}
+// .fa {
+//   padding-bottom: 20px;
+//   background-size: 20px;
+// }
 
 #me {
   background-color: white;
   background-size: cover;
   text-align: center;
+  // padding-top: 33.333px;
   margin: 0 auto;
-}
-
-.container {
-  max-width: 1140px;
+  font-family: 'Maitree', serif;
+  font-size: 1.5em;
+  height: 100vh;
 }
 
 #work {
-  background-color: FloralWhite;
+  background-color: black;
+  color: white;
+  padding-top: 28px;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Maitree', serif;
+  font-size: 1.5em;
+  height: 100vh;
+}
+
+#personal-projects {
+  background-color: white;
+  color: black;
+  padding-top: 28px;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Maitree', serif;
+  font-size: 1.5em;
+  height: 100vh;
+}
+
+#sub-footer {
+  background-color: black;
+  color: white;
+  padding-top: 28px;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Maitree', serif;
+  font-size: 1.5em;
+  height: 50vh;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding-top: 50px;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Maitree', serif;
+  font-size: 1.5em;
+  height: 20vh;
+}
+
+.statement {
+  font-size: .90em;
+}
+
+.footer i {
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#copyright {
+  font-size: .75em;
 }
