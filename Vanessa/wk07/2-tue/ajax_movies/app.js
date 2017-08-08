@@ -16,12 +16,12 @@ $btn.on('click', function(event) {
   }
 }
 
-jQuery.ajax(settings).done(function(response) {
-  var newItem = document.createElement('p');
-  newItem.textContent = response.Title
-  document.querySelector('.response').append(newItem);
-})
-console.log('after ajax function call');
+  $.ajax(settings).done(function(response) {
+    var newItem = document.createElement('p');
+    newItem.textContent = response.Title
+    document.querySelector('.response').append(newItem);
+  })
+  console.log('after ajax function call');
 });
 
 

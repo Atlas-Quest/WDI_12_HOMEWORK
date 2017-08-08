@@ -15,6 +15,14 @@
   background-size: cover;
 }
 
+a {
+  text-decoration: none; color: black;
+}
+
+.statement a {
+  text-decoration: underline; color: white;
+}
+
 body {
   margin: 0;
 }
@@ -24,7 +32,7 @@ body {
 }
 
 .hero-content {
-  padding-top: 360px;
+  padding-top: 250px;
   // top: 300px;
   font-family: 'Maitree', serif;
   font-size: .85em;
@@ -34,7 +42,7 @@ body {
 
 .learn-more {
   padding: 20px;
-  margin: 20px;
+  margin-top: 150px;
   font-size: 1.2em;
   font-weight: bold;
 }
